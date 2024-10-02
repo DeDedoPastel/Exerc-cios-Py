@@ -1,6 +1,6 @@
-import math
-
-numero = int(input("Digite um número: "))
-fatorial = math.factorial(numero)
-
-print(f"O fatorial de {numero} é: {fatorial}")
+numero = 12345
+contagem = 0
+while numero > 0:
+    numero //= 10
+    contagem += 1
+print(contagem)

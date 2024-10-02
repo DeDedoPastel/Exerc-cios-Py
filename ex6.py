@@ -1,8 +1,7 @@
-import math
-
-def calcular_area(raio):
-    return math.pi * (raio ** 2)
-
-raio = float(input("Digite o raio do círculo: "))
-area = calcular_area(raio)
-print(f"A área do círculo é: {area:.2f}")
+numero = 5 
+fatorial = 1
+i = 1
+while i <= numero:
+    fatorial *= i
+    i += 1
+print(fatorial)

@@ -1,8 +1,6 @@
-numero = float(input("Digite um número: "))
-
-if numero > 0:
-    print("O número é positivo.")
-elif numero < 0:
-    print("O número é negativo.")
-else:
-    print("O número é zero.")
+numero = 1234
+soma_digitos = 0
+while numero > 0:
+    soma_digitos += numero % 10
+    numero //= 10
+print(soma_digitos)

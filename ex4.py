@@ -1,4 +1,4 @@
-idd = int(input("Digite sua idade: "))
-if idd >= 18:
-    print("Você é maior de idade.")
-else: print("Você é menor de idade.")
+i = 10
+while i >= 0:
+    print(i)
+    i -= 1

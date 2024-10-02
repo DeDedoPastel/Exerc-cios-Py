@@ -1,5 +1,6 @@
-num = int(input("Digite seu número: "))
-if num % 2 == 0:
-    print("O número é par")
-else:
-    print("O número é impar")
+soma = 0
+i = 1
+while i <= 100:
+    soma += i
+    i += 1
+print(soma)
